@@ -1,0 +1,11 @@
+[package]
+name = "rust_basic_examples"
+version = "0.1.0"
+authors = ["UmerMIB <47888725+UmerMIB@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.3.14"
+text_io = "0.1.7"
+quickersort = "3.0.1"
